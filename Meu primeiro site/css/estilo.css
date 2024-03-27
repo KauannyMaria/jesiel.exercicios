@@ -1,0 +1,202 @@
+/*inicio*/
+
+*{
+    margin: 0p;
+    padding: 0p;
+}
+
+body {
+    background-color: #d3d3d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 0px 0;
+    text-align: center;
+    border-width: 0px;
+}
+
+nav {
+    background-color: #4b0082;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container img{
+    padding: 6% 7%;
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+    align-items: 50px;
+}
+section{
+    padding:  6% 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-size:24px;
+ }
+ section p{
+    text-align: justify;
+    gap: 50px;
+ }
+
+footer {
+    background-color: #6a0dad;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*tabela*/
+.tabela 
+body{
+    background-color: #d3d3d3;
+    text-align:center
+}
+h1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 4;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+footer {
+    background-color: #6a0dad;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse ;
+    width: 60%;
+    padding-top: 10px;
+    margin: 0 auto
+}
+table{
+    padding-top: 5%;
+
+}
+img{
+    width: 27px;
+}
+/*final*/
+/*equipes*/
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+li{
+    padding-top: 2%;
+}
+ul a{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+li img{
+    width: 150px;
+}
+ul b{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul b{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*Playoff*/
+body {
+    align-items: center;
+  }
+div h2 {
+    font-size: 25px;
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse ;
+    width: 50%;
+    padding-top: 10px;
+    margin: 0 auto
+}
+table{
+    padding-top: 5%;
+}
+
+img {
+    width: 27px;
+    justify-content: center;
+}
+p{
+    display: inline-block;
+    text-align: center;
+}
+
+.tudo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.parte1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.parte1 div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.parte1 img{
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.p2{
+    font-size: 9px;
+}
